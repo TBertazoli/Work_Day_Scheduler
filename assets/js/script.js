@@ -10,7 +10,7 @@ $(displayDate).append(todaysDate);
 
 
 var actualHour = moment().format("H");
-var textArea = $(".text-area");
+var textArea = $(".textarea");
 var rowContent = $(".row.content")
 
 // function change color
@@ -28,13 +28,14 @@ function changeColor() {
     });
 }
 
-//function to save tasks
+//function to save tasks on local storage
 function save(index) {
     var event = rowContent.eq(index).children().eq(1).children().eq(0).val();
     console.log(event);
     localStorage.setItem(index, event);
 }
 
+//function to popluate tasks from local storage
 function populateTable() {
     rowContent.each(function (index) {
         var event = localStorage.getItem(index);
