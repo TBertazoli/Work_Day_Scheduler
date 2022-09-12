@@ -1,7 +1,7 @@
 # Work_Day_Scheduler
 
-This website ia a workday sheduler and was develop using bootstrap, Jquery and momentjs. The user can save tasks during regular business business in local storage. 
-The date is based on the user set location and will update automatically. The hours are color cooded. Red for current hour, grey for past and green for future.
+This website ia a workday scheduler and was develop by using bootstrap, Jquery and momentjs. The user can save tasks in local storage during regular business hours. 
+The date is based on the user set location and will update automatically. The hours are color-coded. Red for current hour, grey for past and green for future.
 
 <img src="./assets\images\Screenshot 2022-09-12 111250.png" alt="a table to enter tasks or events">
 
