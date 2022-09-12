@@ -17,7 +17,7 @@ var rowContent = $(".row.content")
 function changeColor() {
     rowContent.each(function (index) {
         var className = "";
-        if (index + 8 === actualHour) {
+        if (index + 8 == actualHour) {
             className = "present";
         } else if (index + 8 < actualHour) {
             className = "past"
